@@ -115,7 +115,7 @@ footer {
     margin-top: 150px;
     margin-bottom: 100px;
     border:1px solid #dddddd;
-    height:100%;
+    height:auto;
 }
 .picture { 
     float: left;
