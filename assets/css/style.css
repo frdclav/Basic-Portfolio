@@ -4,9 +4,7 @@
     color: #777777;
 }
 p {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: justify;
+    margin: 0px 0px 0px 0px;
 }
 h1,h2 {
     color: #ffffff;
@@ -40,7 +38,8 @@ body {
     
     margin-left: auto;
     margin-right: auto;
-    height:100%;
+    margin-bottom: 0;
+    min-height: calc(100vh - 50px);
 }
 header{
     /* overflow: hidden;
@@ -93,16 +92,18 @@ footer {
    
     height: 50px;
     background-color: #666666;
-    position: relative;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
     display: block;
     left: 0;
     bottom: 0;
-    top:100%;
     /* width: 100%;
     margin-left:0;
     margin-right:0;
     margin-top:50px; */
     border-top: 5px solid #4aaaa5;
+    margin-bottom: 0;
 }
 .about_me{
     flex:1;
