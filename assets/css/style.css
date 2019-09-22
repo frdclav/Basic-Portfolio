@@ -118,6 +118,10 @@ footer {
     border:1px solid #dddddd;
     height:auto;
 }
+.about_me_text{
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .picture { 
     float: left;
     padding: 20px;
