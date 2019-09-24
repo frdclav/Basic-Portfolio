@@ -95,12 +95,13 @@ footer {
     overflow: hidden;
     height: 50px;
     background-color: #666666;
-    position: relative;
+    position: absolute;
     display: block;
     left: 0;
     bottom: 0;
     border-top: 5px solid #4aaaa5;
     margin-bottom: 0;
+    width: 100%;
 }
 .about_me{
     width:100%;
