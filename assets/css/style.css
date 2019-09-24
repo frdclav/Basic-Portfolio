@@ -114,6 +114,7 @@ footer {
     text-align: justify;
     line-height: 1.5em;
     text-indent: 1.5em;
+    min-height:600px;
 }
 .about_me_text{
     padding-left: 25px;
