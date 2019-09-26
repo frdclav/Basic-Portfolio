@@ -6,6 +6,7 @@ a, p {
 a:hover {
     color:#4aaaa5;
     text-decoration: line-through;
+    border: dashed;
 
 }
 a:visited {
